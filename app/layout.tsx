@@ -1,17 +1,13 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Inter } from 'next/font/google';
 
-const geistSans = Geist({
-	variable: '--font-geist-sans',
-	subsets: ['latin'],
-});
-
-const geistMono = Geist_Mono({
-	variable: '--font-geist-mono',
+const inter = Inter({
+	variable: '--font-inter',
 	subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
+	metadataBase: new URL('http://localhost:3000'), // Added metadataBase to resolve the warning
 	title: 'myOwnsite',
 	description:
 		'Welcome to my portfolio! I am a passionate designer who love creating simple and effective solutions. Explore my projects and creations approach.',
@@ -34,7 +30,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'Dion J MAtthew K - Designer Portfolio',
 		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-		url: 'https://your-domain.com',
+		url: 'http://localhost:3000', // Updated placeholder URL
 		siteName: 'myOwnPortfolio',
 		images: [
 			{
@@ -74,7 +70,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
+			<body className={`${inter.variable} antialiased`}>{children}</body>
 		</html>
 	);
 }
