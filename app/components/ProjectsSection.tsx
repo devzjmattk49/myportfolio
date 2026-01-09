@@ -3,20 +3,20 @@ import Image from 'next/image';
 export default function ProjectsSection() {
 	const projects = [
 		{
-			title: 'Project Alpha',
-			description: 'A responsive web application built with React and Node.js. Features real-time data visualization and user authentication.'
+			title: 'Project Alpha - UI Design System',
+			description: 'Complete UI/UX design system featuring reusable components, typography scales, and color palettes. Built with Figma wireframes and responsive design principles for modern web applications.'
 		},
 		{
-			title: 'Project Beta',
-			description: 'Full-stack e-commerce platform with payment integration, inventory management, and analytics dashboard.'
+			title: 'Project Beta - E-Commerce Frontend',
+			description: 'Fully responsive e-commerce website frontend with product carousel, image galleries, and smooth animations. Features shopping cart interface, product filters, and checkout flow design.'
 		},
 		{
-			title: 'Project Gamma',
-			description: 'Mobile-first design system and component library using Tailwind CSS and TypeScript.'
+			title: 'Project Gamma - Mobile App Prototype',
+			description: 'Mobile-first app interface design featuring intuitive navigation, gesture controls, and interactive wireframes. Includes onboarding flows, user dashboards, and micro-interactions.'
 		},
 		{
-			title: 'Project Delta',
-			description: 'AI-powered content management system with advanced search and filtering capabilities.'
+			title: 'Project Delta - Digital Brochure/Portfolio',
+			description: 'Interactive digital brochure and portfolio website with smooth scrolling, image carousels, and modern animations. Showcases services, testimonials, and call-to-action sections.'
 		}
 	];
 

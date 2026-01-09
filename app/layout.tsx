@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-	metadataBase: new URL('http://localhost:3000'), // Added metadataBase to resolve the warning
+	metadataBase: new URL('https://myownsite-emerald.vercel.app'), // Production URL
 	title: 'myOwnsite',
 	description:
 		'Welcome to my portfolio! I am a passionate designer who love creating simple and effective solutions. Explore my projects and creations approach.',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'Dion J MAtthew K - Designer Portfolio',
 		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-		url: 'http://localhost:3000', // Updated placeholder URL
+		url: 'https://myownsite-emerald.vercel.app',
 		siteName: 'myOwnPortfolio',
 		images: [
 			{
