@@ -26,7 +26,7 @@ export default function HeroSection() {
 					</div>
 					
 					<div className="space-y-4">
-						<h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+<h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-cyan-400 via-teal-400 to-emerald-400 bg-clip-text text-transparent">
 							Dion J MAtthew K
 						</h1>
 						
@@ -41,10 +41,10 @@ export default function HeroSection() {
 					</div>
 
 					<div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
-						<a href="#projects" className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105">
+						<a href="#projects" className="px-8 py-3 bg-gradient-to-r from-teal-500 to-cyan-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-teal-500/50 transition-all duration-300 hover:scale-105">
 							View My Work
 						</a>
-						<a href="#contact" className="px-8 py-3 border-2 border-blue-400 text-blue-300 rounded-lg font-semibold hover:bg-blue-500/10 transition-all duration-300">
+						<a href="#contact" className="px-8 py-3 border-2 border-cyan-400 text-cyan-300 rounded-lg font-semibold hover:bg-cyan-500/10 transition-all duration-300 hover:scale-105">
 							Get In Touch
 						</a>
 					</div>

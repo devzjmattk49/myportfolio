@@ -18,10 +18,10 @@ export default function ContactSection() {
 					className="text-center space-y-8"
 				>
 					<div>
-						<h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-							Get In Touch
-						</h2>
-						<div className="h-1 w-16 bg-gradient-to-r from-blue-400 to-cyan-400 mx-auto mt-4"></div>
+					<h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent">
+						Get In Touch
+					</h2>
+					<div className="h-1 w-16 bg-gradient-to-r from-teal-400 to-cyan-400 mx-auto mt-4"></div>
 					</div>
 
 					<p className="text-gray-300 text-lg">Interested in working together? Let&apos;s start a conversation.</p>
@@ -46,7 +46,7 @@ export default function ContactSection() {
 					{/* Contact Buttons */}
 					<div className="flex flex-col sm:flex-row justify-center gap-4 flex-wrap">
 						<a
-							href="https://wa.me/918714406338?text=Hi%20Dion%2C%20I%20would%20like%20to%20connect%20with%20you!"
+							href="https://wa.me/918075638247?text=Hi%20Dion%2C%20I%20would%20like%20to%20connect%20with%20you!"
 							className="px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-green-500/50 transition-all duration-300 hover:scale-105 inline-flex items-center justify-center gap-2"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -57,9 +57,12 @@ export default function ContactSection() {
 							WhatsApp Me
 						</a>
 						<a
-							href="/DION JOHNSON mainfinall080725.pdf"
+							href="/2finalCvUpdate_020126.pdf"
 							target="_blank"
-							className="px-6 py-3 border-2 border-blue-400 text-blue-300 font-semibold rounded-lg hover:bg-blue-500/10 transition-all duration-300 hover:scale-105 inline-flex items-center justify-center gap-2"
+							rel="noopener noreferrer"
+							className="px-6 py-3 border-2 border-teal-400 text-teal-300 font-semibold rounded-lg hover:bg-teal-500/10 transition-all duration-300 hover:scale-105 inline-flex items-center justify-center gap-2"
+							aria-label="View Resume PDF"
+							title="View Dion's Resume"
 						>
 							<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
 								<path
@@ -69,7 +72,7 @@ export default function ContactSection() {
 								/>
 								<path fillRule="evenodd" d="M8 11a1 1 0 100 2h4a1 1 0 100-2H8zm0-4a1 1 0 100 2h4a1 1 0 100-2H8z" clipRule="evenodd" />
 							</svg>
-							View Resume
+								View Resume
 						</a>
 					</div>
 
@@ -77,8 +80,25 @@ export default function ContactSection() {
 					<div className="pt-6 border-t border-slate-700">
 						<p className="text-gray-400 text-sm mb-4">Connect with me on</p>
 						<div className="flex justify-center gap-6 flex-wrap">
-							<a 
-								href="https://github.com/devZeus721" 
+							<a 									href="https://www.codechef.com/users/hexval_zjmk749"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="text-gray-400 hover:text-orange-400 hover:scale-110 transition-all duration-300"
+									aria-label="CodeChef Profile"
+									title="CodeChef"
+								>
+									<svg className="w-6 h-6" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g>
+											<rect width="32" height="32" rx="16" fill="currentColor"/>
+											<path d="M23.947 19.2c-1.458.23-2.529.198-3.055-.277-2.09-1.833-.961-5.782-1.154-5.782-.145 0-1.475 2.66-.708 6.334.601 2.943-4.184 1.709-5.823 1.175-.338-.108-.86.057-1.236.44-.346.355-.455.854-.18 1.155.425.46 1.51.796 2.773 1.076 2.057.452 5.246.565 7.049-.695.483-.339.323-1.273-.666-1.426z" fill="#fff"/>
+											<ellipse cx="16" cy="12.167" rx="7.833" ry="8.167" fill="#fff"/>
+											<ellipse cx="12.25" cy="11.25" rx="1.25" ry="1.25" fill="currentColor"/>
+											<ellipse cx="19.75" cy="11.25" rx="1.25" ry="1.25" fill="currentColor"/>
+										</g>
+									</svg>
+								</a>
+
+								<a 								href="https://github.com/devZeus721" 
 								target="_blank" 
 								rel="noopener noreferrer" 
 								className="text-gray-400 hover:text-white hover:scale-110 transition-all duration-300"
@@ -91,55 +111,10 @@ export default function ContactSection() {
 							</a>
 
 							<a
-								href="https://www.codechef.com/users/hexval_zjmk749"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-gray-400 hover:text-white hover:scale-110 transition-all duration-300"
-								aria-label="CodeChef Profile"
-								title="CodeChef"
-							>
-								<svg className="w-6 h-6" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<g>
-										<rect width="32" height="32" rx="16" fill="currentColor"/>
-										<path d="M23.947 19.2c-1.458.23-2.529.198-3.055-.277-2.09-1.833-.961-5.782-1.154-5.782-.145 0-1.475 2.66-.708 6.334.601 2.943-4.184 1.709-5.823 1.175-.338-.108-.86.057-1.236.44-.346.355-.455.854-.18 1.155.425.46 1.51.796 2.773 1.076 2.057.452 5.246.565 7.049-.695.483-.339.323-1.273-.666-1.426z" fill="#fff"/>
-										<ellipse cx="16" cy="12.167" rx="7.833" ry="8.167" fill="#fff"/>
-										<ellipse cx="12.25" cy="11.25" rx="1.25" ry="1.25" fill="currentColor"/>
-										<ellipse cx="19.75" cy="11.25" rx="1.25" ry="1.25" fill="currentColor"/>
-									</g>
-								</svg>
-							</a>
-
-							<a 
-								href="https://www.linkedin.com/in/izeusmatthewk749?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVuhoWKtbToyZI5LxPhrLeg%3D%3D" 
-								target="_blank" 
-								rel="noopener noreferrer" 
-								className="text-gray-400 hover:text-blue-400 hover:scale-110 transition-all duration-300"
-								aria-label="LinkedIn Profile"
-								title="LinkedIn"
-							>
-								<svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-									<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-								</svg>
-							</a>
-
-							<a 
-								href="https://x.com/_zeusjmattk21?s=21" 
-								target="_blank" 
-								rel="noopener noreferrer" 
-								className="text-gray-400 hover:text-white hover:scale-110 transition-all duration-300"
-								aria-label="X (Twitter) Profile"
-								title="X / Twitter"
-							>
-								<svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-									<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-								</svg>
-							</a>
-
-							<a 
-								href="https://www.behance.net/creatordjmk21497" 
-								target="_blank" 
-								rel="noopener noreferrer" 
-								className="text-gray-400 hover:text-blue-400 hover:scale-110 transition-all duration-300"
+							href="https://www.behance.net/creatordjmk49"
+							target="_blank"
+							rel="noopener noreferrer"
+								className="text-gray-400 hover:text-cyan-400 hover:scale-110 transition-all duration-300"
 								aria-label="Behance Profile"
 								title="Behance"
 							>

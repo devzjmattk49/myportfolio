@@ -14,7 +14,7 @@ html {
 }
 
 body {
-	background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+	background: linear-gradient(135deg, #0a3d3d 0%, #164e63 25%, #0d565f 50%, #0f2e2e 75%, #0a3d3d 100%);
 	min-height: 100vh;
 	color: #e2e8f0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;

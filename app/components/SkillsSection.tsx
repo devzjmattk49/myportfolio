@@ -21,9 +21,6 @@ export default function SkillsSection() {
 						<div
 							key={skill}
 							className="group relative bg-gradient-to-br from-slate-700 to-slate-800 p-5 sm:p-6 rounded-xl shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 border border-slate-600 hover:border-cyan-400 cursor-pointer"
-							style={{
-								animationDelay: `${index * 50}ms`
-							}}
 						>
 							<div className="absolute inset-0 bg-gradient-to-r from-cyan-500/0 to-blue-500/0 group-hover:from-cyan-500/20 group-hover:to-blue-500/20 rounded-xl transition-all duration-300"></div>
 							<p className="relative text-center text-sm sm:text-base font-semibold text-cyan-100 group-hover:text-cyan-300 transition-colors">
