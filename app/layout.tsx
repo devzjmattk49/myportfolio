@@ -13,8 +13,14 @@ export const metadata: Metadata = {
 	description:
 		'Welcome to my portfolio! I am a passionate designer who love creating simple and effective solutions. Explore my projects and creations approach.',
 	icons: {
-        icon: '/zj_bk fevicon.png',
-    },
+		icon: [
+			{ url: '/favicon.ico', sizes: 'any' },
+			{ url: '/favicon.svg', type: 'image/svg+xml' },
+			{ url: '/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
+		],
+		apple: '/favicon/apple-touch-icon.png',
+	},
+	manifest: '/favicon/site.webmanifest',
 
 	keywords: [
 		'Web Developer',
