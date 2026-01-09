@@ -98,7 +98,7 @@ export default function ContactSection() {
 									</svg>
 								</a>
 
-								<a 								href="https://github.com/devZeus721" 
+								<a 								href="https://github.com/devzjmattk49" 
 								target="_blank" 
 								rel="noopener noreferrer" 
 								className="text-gray-400 hover:text-white hover:scale-110 transition-all duration-300"
