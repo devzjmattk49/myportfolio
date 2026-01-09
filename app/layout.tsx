@@ -14,9 +14,9 @@ export const metadata: Metadata = {
 		'Welcome to my portfolio! I am a passionate designer who love creating simple and effective solutions. Explore my projects and creations approach.',
 	icons: {
 		icon: [
-			{ url: '/favicon.ico', sizes: 'any' },
-			{ url: '/favicon.svg', type: 'image/svg+xml' },
-			{ url: '/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
+			{ url: '/favicon/favicon.ico', sizes: 'any' },
+			{ url: '/favicon/favicon.svg', type: 'image/svg+xml' },
+			{ url: '/favicon/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
 		],
 		apple: '/favicon/apple-touch-icon.png',
 	},
