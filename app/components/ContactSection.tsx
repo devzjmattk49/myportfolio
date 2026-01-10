@@ -57,7 +57,7 @@ export default function ContactSection() {
 							WhatsApp Me
 						</a>
 						<a
-							href="U:\GithubDRive\myportfolio\public\DIONJmainfinal_020126.pdf"
+							href="/DIONJmainfinal_020126.pdf"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="px-6 py-3 border-2 border-teal-400 text-teal-300 font-semibold rounded-lg hover:bg-teal-500/10 transition-all duration-300 hover:scale-105 inline-flex items-center justify-center gap-2"
